@@ -23,6 +23,16 @@ On Windows you can check if you required software with the following command lin
 [pip](https://pip.pypa.io/en/stable/installing/)</br>
 [pandas](https://pandas.pydata.org/pandas-docs/stable/getting_started/install.html#installing-from-pypi)
 
+# Ready?
+Once you have averything installed, download this respository into your desktop. 
+These files should all appear in one folder. 
+<p>
+If you have the three data files </br>
+cons.csv </br>
+cons_email.csv </br>
+cons_email_chapter_subscription.csv </br>
+Then run the ALSDataTest.py module. The python module will output the csv files for people and acquisition_facts
+
 
 Extra credit:
 Install and use Jupyter notebooks </br>
