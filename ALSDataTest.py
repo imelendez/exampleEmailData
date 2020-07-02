@@ -37,14 +37,14 @@ correctorder=correctorder[['cons_id','email','source','isunsub','created_dt','mo
 
 
 # # Output final result person table to CSV
-correctorder.to_csv('finaltable1.csv',index=False)
+correctorder.to_csv('people.csv',index=False)
 
 datesTable=correctorder['created_dt'].value_counts()
 
 # # Create dates CSV output 
 
 #CSV file has column with dates and corresponding counts
-datesTable.to_csv('dates.csv')
+datesTable.to_csv('acquisition_facts.csv')
 
 # the end
 
